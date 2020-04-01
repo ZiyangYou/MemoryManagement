@@ -1,8 +1,12 @@
 #include <iostream>
+#include "Player.h"
+#include "Character.h"
+#include "Pet.h"
+#include "Cat.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
