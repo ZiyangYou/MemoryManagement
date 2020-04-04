@@ -38,6 +38,13 @@ Player& Player::operator=(const Player& p)
 	return *this;
 }
 
+void Player::print()
+{
+	std::string tmpPetType; 
+	playerPetType == PetType::CAT ? tmpPetType = "cat" : tmpPetType = "dog";
+	std::cout << "Player's health: " << health << " Player's pet type: " << tmpPetType << std::endl;
+}
+
 Player::~Player()
 {
 	if (--(*numOfReference) == 0)

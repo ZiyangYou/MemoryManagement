@@ -4,7 +4,7 @@
 
 Pet::Pet() : health(50)
 {
-	std::cout << "Pet constructor called" << std::endl;
+	//std::cout << "Pet constructor called" << std::endl;
 }
 
 Pet::Pet(float health) : health(health)

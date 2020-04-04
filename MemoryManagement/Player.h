@@ -14,6 +14,9 @@ public:
 	//copy assignment constructor
 	Player& operator=(const Player&);
 
+	//print function to print out health and owned pet
+	void print();
+
 	//deconstructor
 	~Player()override;
 

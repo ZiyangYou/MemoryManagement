@@ -3,7 +3,7 @@
 
 Cat::Cat()
 {
-	std::cout << "Cat constructor called" << std::endl;
+	//std::cout << "Cat constructor called" << std::endl;
 }
 
 Cat::Cat(float health):Pet(health)
